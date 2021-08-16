@@ -1,3 +1,4 @@
+/* general styling */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -5,13 +6,13 @@
 }
 
 body {
-    background-color: #d9dcd6;
+    background-color: #d9dcd6; /* Set body background color to #d9dcd6 */
 }
-
+/* header styling */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
-    background-color: #2a607c;
+    background-color: #2a607c; /* Set header background color to #2a607c */
     color: #ffffff;
 }
 
@@ -49,7 +50,7 @@ a {
 p {
     font-size: 16px;
 }
-
+/* Setting classes 'hero' and 'content' background and margings */
 .hero {
     height: 800px;
     width: 100%;
@@ -64,7 +65,7 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
-
+/* float rules */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -187,7 +188,7 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* footer styling */
 .footer {
     padding: 30px;
     clear: both;
